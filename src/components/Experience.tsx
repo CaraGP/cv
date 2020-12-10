@@ -4,11 +4,16 @@ import Moment from "react-moment";
 import { Experience as _Experience } from "../types";
 import ReadMore from "./ReadMore";
 import TitledList from "./TitledList";
+import styled from "styled-components";
 
 type ExperienceProps = {
   experience: _Experience;
   noMargin?: boolean;
 };
+
+const StyledH4 = styled.h4`
+  margin-bottom: 0;
+`;
 
 const Experience: FC<ExperienceProps> = (props) => {
   let classNames = "experience";
@@ -19,7 +24,7 @@ const Experience: FC<ExperienceProps> = (props) => {
     <div className={classNames}>
       <Row>
         <Col>
-          <h4 className="job-title text-center">{experience.jobTitle}</h4>
+          <StyledH4 className="text-center">{experience.jobTitle}</StyledH4>
         </Col>
       </Row>
       <Row className="justify-content-center">
