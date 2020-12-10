@@ -8,7 +8,7 @@ type GithubRibbonProps = {
 
 const GithubRibbon = (props: GithubRibbonProps) => {
   return (
-    <a href={props.githubUrl}>
+    <a href={props.githubUrl} target="_blank">
       <img
         style={{ position: "absolute", top: 0, right: 0, border: 0 }}
         src={props.imgSrc}
