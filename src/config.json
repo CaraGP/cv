@@ -100,7 +100,7 @@
         "Part of the team responsible for overseeing the rollout of a two-year front-end project, as well as other client-facing applications. Also maintained the internally-shared front-end component library."
       ],
       "aboutReadMore": [
-        "Technology primarily included TypeScript &amp; React. Built and maintained BFFs for each of our front-end applications, maintained existing APIs and set up monitoring for server-side as well as instrumentation to monitor how our customers used our platform.",
+        "Technology primarily included TypeScript & React. Built and maintained BFFs for each of our front-end applications, maintained existing APIs and set up monitoring for server-side as well as instrumentation to monitor how our customers used our platform.",
         "I was one of the main proponents in the adoption of behaviour-driven development. Also involved in pair programming and system design interviews."
       ]
     },
