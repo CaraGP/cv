@@ -32,10 +32,6 @@ p {
   text-align: justify;
 }
 
-.profile-pic {
-  margin-bottom: 10px;
-}
-
 .subtitle-text {
   margin-bottom: 0;
 }
@@ -85,11 +81,5 @@ p {
     font-weight: bold;
     padding-right: 20px;
     vertical-align: top;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .profile-pic {
-    width: 60%;
   }
 }
