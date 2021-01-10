@@ -112,11 +112,13 @@
           "One of the leading coordinators for evolving Jira, Development & Delivery processes.",
           "Mentor and guide on matters of general testing best practices, and troubleshooting for fellow QA Engineers.",
           "Presented and helped organise presentations and documentation on the following topics:",
-          "○ BDD best practices.",
-          "○ Double Diamond development process.",
-          "○ Mutation testing.",
-          "○ Testing best practices.",
-          "○ How to test Automation Scenarios and both Frontend and Backend functionality."
+          [
+            "BDD best practices.",
+            "Double Diamond development process.",
+            "Mutation testing.",
+            "Testing best practices.",
+            "How to test Automation Scenarios and both Frontend and Backend functionality."
+          ]
         ]
       }
     },
