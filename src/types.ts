@@ -4,6 +4,9 @@ export type Social = {
   text: string;
 };
 
+type StringOrStringArray = string | string[];
+export type NestedStringArray = StringOrStringArray[];
+
 export type Experience = {
   jobTitle: string;
   otherTitles?: string[];
@@ -16,22 +19,14 @@ export type Experience = {
   aboutReadMore?: string[];
   additionalSkillList?: {
     title: string;
-    skills: string[];
+    skills: NestedStringArray;
   };
 };
 
-type GithubRibbonUsed = {
-  enabled: true;
+type GithubRibbon = {
   link: string;
   imageSrc: string;
   imageAlt: string;
-};
-
-type GithubRibbonNotUsed = {
-  enabled: false;
-  link?: string;
-  imageSrc?: string;
-  imageAlt?: string;
 };
 
 export type Config = {
@@ -46,7 +41,7 @@ export type Config = {
   email?: string;
   cvUrl: string;
   social: Social[];
-  githubRibbon: GithubRibbonUsed | GithubRibbonNotUsed;
+  githubRibbon?: GithubRibbon;
   introductions: string[];
   skills: string[];
   complimentarySkills?: string[];
