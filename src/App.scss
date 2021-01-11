@@ -42,7 +42,16 @@ p {
 }
 
 .profile-pic {
+  border-radius: 50%;
+  filter: grayscale(100%);
   margin-bottom: 10px;
+  margin-bottom: 10px;
+  transition: 1s;
+  width: 100%;
+
+  &:hover {
+    filter: none;
+  }
 }
 
 .subtitle-text {
