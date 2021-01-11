@@ -20,20 +20,15 @@
     "Over 13 years experience in the field of Quality Assurance. High level of attention to detail, adaptable, and with experience in Manual and Automation test approaches. Experienced with both Scrum and Agile methodologies and processes across multiple software development areas, including Mobile, Connected devices and Gaming Applications."
   ],
   "skills": [
-    "Jira",
-    "Browserstack",
-    "CharlesProxy",
-    "Postman",
-    "Burp",
-    "Ghost Inspector",
-    "Testrails",
-    "QTest",
+    "Behaviour-driven development (BDD)",
+    "Gherkin scenario writing/refining",
+    "Test-driven development (TDD)",
     "Visual Studio Code",
     "IntelliJ",
     "ADT Eclipse",
-    "XCode",
+    "Xcode",
     "WebdriverIO",
-    "Basics of Javascript test definitions",
+    "Basics of JavaScript test definitions",
     "Cucumber",
     "Behat",
     "GitHub",
@@ -44,19 +39,24 @@
     "Bitbucket",
     "Octopus",
     "Datadog",
-    "Sonic",
+    "Sonic CMS",
     "Google Analytics",
     "Storybook",
     "Full Story",
-    "Behaviour-driven development (BDD)",
-    "Gherkin scenario writing/refining",
-    "Test-driven development (TDD)"
+    "Browserstack",
+    "CharlesProxy",
+    "Postman",
+    "Burp",
+    "Ghost Inspector",
+    "TestRail",
+    "QTest",
+    "Jira"
   ],
   "complimentarySkills": [
     "Advocate for Lean Kanban approaches.",
     "Advocate and strong supporter of Agile processes and mentality.",
     "Drives for technical excellence & quality-first focus.",
-    "Advisor and guide for better Gherkin scenario writing and BDD implimentation.",
+    "Advisor and guide for better Gherkin scenario writing and BDD implementation.",
     "Advocate for team transparency.",
     "Bridges the natural language gap between business and engineer.",
     "Drives for constantly improving processes.",
@@ -64,16 +64,14 @@
     "Ability to manipulate data, automation, proxy tool and debugging code for a wide range of testing coverage."
   ],
   "me": [
-    "Driver for Quality over Quantity, who aims to change the way teams think about general quality and testing approaches.",
-    "Interested in joining a improvement driven team, where I can extend my knowledge and hands on experience implementing and maintaining automation suites, or train to be a Test Manager or Quality Consultant."
+    "I drive for Quality over Quantity, and aim to change the way teams think about general quality and testing approaches.",
+    "Interested in joining a improvement-driven cross-functional team, where I can extend my knowledge and hands on experience."
   ],
   "meReadMore": [
-    "I have a broad understanding of both good and bad testing and development processes, and aim to always use previous experience to guide and constantly approve team approaches to software development.",
-    "I am able to work on my own, but I prefer working directly with developers, product, design, and all other elements in cross-fuctional teams.",
-    "I am approachable and easy to get on with; providing both a friendly ear and a sound board for ideas.",
-    "I see myself as artistic and creative, dabbling in oil painting and wire weaving crafts.",
-    "I can be quite stubborn about driving the mentality that Quality should be everyone's responsibily and passion, not just something left to the QA.",
-    "My communication skills are of a high standard; willing and able to converse with all levels and experiences."
+    "I consider it one of my professional mandates to mentor and coach members of my team, and the wider company, that quality is everyone's responsibility.",
+    "Able to work on my own, but I prefer working directly with developers, product, design, and all other elements in a cross-fuctional team.",
+    "I am approachable and easy to get on with; providing both a friendly ear and a sound board for ideas. My communication skills are of a high standard; willing and able to converse with all levels and experiences.",
+    "I see myself as artistic and creative, dabbling in oil painting and wire weaving crafts."
   ],
   "experience": [
     {
@@ -95,7 +93,7 @@
       "startDate": "Feb 2018",
       "endDate": "March 2020",
       "about": [
-        "Part of various teams responsible for creating and maintaining some of the front-end, data-driven pages. Displaying useful streaming and media consumption statistics, as well as monetary earnings and spendature values."
+        "Part of various teams responsible for creating and maintaining some of the front-end, data-driven pages. Displaying useful streaming and media consumption statistics, as well as monetary earnings and expenditure values."
       ],
       "aboutReadMore": [
         "Sole tester for cross-functional teams, covering and implementing evolving test processes; driving quality-first approaches.",
@@ -104,10 +102,10 @@
       "additionalSkillList": {
         "title": "Responsibilities included:",
         "skills": [
-          "Helped implement and maintain Acceptance/Functional automation test suites, covering both Frontend and Backend functionality, in Javascript and PHP.",
-          "Helped mentor fellow Engineers in the creation of BDD Scenarios using Gherkin syntax.",
-          "Studied and helped implement a Mutation Testing tool into a Web product, to automate monitoring of Code Coverage levels.",
-          "Helped create/update DOR/DOD documentation (Definition of Ready/Definition of Done).",
+          "Implemention and maintainence of Acceptance/Functional automation test suites, covering both Frontend and Backend functionality, in Javascript and PHP.",
+          "Mentor junior members of the team in good automation practice such as BDD and quality-first focus.",
+          "Implementing new testing tools to aid with quality monitoring, such as a Mutation Testing tool.",
+          "Creating and updating DOR/DOD documentation (Definition of Ready/Definition of Done).",
           "One of the leading spokespeople for implementing a QA Engineer earlier in the development process.",
           "One of the leading coordinators for evolving Jira, Development & Delivery processes.",
           "Mentor and guide on matters of general testing best practices, and troubleshooting for fellow QA Engineers.",
@@ -142,7 +140,7 @@
           "Learned how to use Ghost Inspector to create Automated Regression suites for purely Frontend testing.",
           "Investigated running Ghost Inspector test suites on deployment using Octopus Deploy build service.",
           "Some experience with connecting Runscope API testing tool to a Ghost Inspector test suite.",
-          "Some experience using Sitecore and Umbrago content management systems."
+          "Some experience using Sitecore and Umbraco content management systems."
         ]
       }
     },
@@ -211,7 +209,7 @@
       "startDate": "Apr 2007",
       "endDate": "Dec 2011",
       "about": [
-        "Covered various roles within the testing/quality department for a well established and long running games company."
+        "Covered various roles within the testing/quality department for a well-established and long-running games company."
       ],
       "aboutReadMore": [
         "Evolved from simply testing games to organising testing responsibilites and daily coverage. Also monitoring and organising test management data between shifts and different business units. Then moved into hardware and software management, being involved with the software submissions and submission monitoring."
