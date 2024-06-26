@@ -1,10 +1,10 @@
 # My personal CV
 
-http://cv.deanj.co.uk/
+https://caragp.github.io/cv/
 
 ## Install
 
-- `git clone git@github.com:xurion/cv.git`
+- `git clone git@github.com:CaraGP/cv.git`
 - `yarn install`
 
 ## Run
