@@ -1,6 +1,6 @@
 {
   "forenames": "Cara",
-  "surname": "Gifford-Pitcher",
+  "surname": "James",
   "profession": "Quality Assurance Engineer for Software Development",
   "dob": "30th November 1983",
   "gender": "Female",
@@ -12,16 +12,15 @@
   "social": [
     {
       "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/cara-gifford-pitcher-02577a22/",
-      "text": "linkedin.com/in/cara-gifford-pitcher-02577a22"
+      "url": "https://www.linkedin.com/in/cara-james-02577a22/",
+      "text": "linkedin.com/in/cara-james-02577a22"
     }
   ],
   "introductions": [
-    "Over 13 years experience in the field of Quality Assurance. High level of attention to detail, adaptable, and with experience in Manual and Automation test approaches. Experienced with both Scrum and Agile methodologies and processes across multiple software development areas, including Mobile, Connected devices and Gaming Applications."
+    "Over 15 years experience in the field of Quality Assurance. High level of attention to detail, adaptable, and with experience in Manual and Automation test approaches. Experienced with both Scrum and Agile methodologies and processes across multiple software development areas, including Mobile, Web, Connected devices and Gaming Applications."
   ],
   "skills": [
     "Behaviour-driven development (BDD) in the form of early Gherkin scenario writing/refining",
-    "Test-driven development (TDD)",
     "Visual Studio Code",
     "Cypress",
     "Basics of JavaScript test definitions",
@@ -29,51 +28,50 @@
     "Graylog",
     "Storybook",
     "Postman",
-    "TestRail",
     "Jira"
   ],
   "complimentarySkills": [
-    "Advocate for Lean Kanban approaches.",
     "Advocate and strong supporter of Agile processes and mentality.",
     "Drives for technical excellence & quality-first focus.",
     "Advisor and guide for better Gherkin scenario writing and BDD implementation.",
     "Advocate for team transparency.",
     "Bridges the natural language gap between business and engineer.",
     "Drives for constantly improving processes.",
-    "Efficient learning ability for new feature, tools, processes and frameworks.",
+    "Efficient learning ability for new features, tools, processes and frameworks.",
     "Ability to manipulate data, investigating errors via logging tools for a wider range of understanding.",
     "Not just testing something works, but striving to understand why it doesn't and could it do it better?"
   ],
   "me": [
     "I drive for Quality over Quantity, and aim to change the way teams think about general quality and testing approaches.",
-    "Interested in joining a improvement-driven cross-functional team, where I can extend my knowledge and hands on experience."
+    "Interested in joining an improvement-driven cross-functional team, where I can extend my knowledge and hands on experience."
   ],
   "meReadMore": [
-    "I consider it one of my professional mandates to mentor and coach members of my team, and the wider engineering team, that quality is everyone's responsibility.",
+    "I consider it one of my professional mandates to mentor and coach members of my team, as well as the wider engineering team. Firm believer that quality is everyone's responsibility.",
     "Able to work on my own, but I prefer working directly with developers, product, design, and all other elements in a cross-functional team.",
-    "I am approachable and easy to get on with; providing both a friendly ear and a rubber duck alternative for ideas and problem solving. My communication skills are of a high standard; willing and able to converse with all levels and experiences.",
-    "I see myself as artistic and creative. Hobbies include art and crafts, and computer games."
+    "I am approachable and easy to get on with; providing both a friendly ear and a rubber duck alternative for ideas and problem solving. My communication skills are of a high standard. I am willing and able to converse with all levels and experiences.",
+    "I see myself as artistic and creative. Hobbies include art and crafts, computer games and watching F1."
   ],
   "experience": [
     {
-      "jobTitle": "Senior QA Engineer",
+      "jobTitle": "QA Manager",
+      "otherTitles": ["Senior QA Engineer"],
       "companyName": "InfoSum",
       "companyLogo": "infosum.svg",
       "startDate": "Sept 2021",
       "about": [
-        "Part of a small engineering team working on a SAAS Platform in the Marketing, Data Cleanroom space. Storing and providing a service to allow for data querying to help with Marketing specific user groups and general campaigns."
+        "Part of a small engineering team working on a SAAS Platform in the Marketing, Data Cleanroom space. Providing a service to allow for data querying to help with Marketing specific user groups and general marketing campaigns."
       ],
       "aboutReadMore": [
-        "Fully manual role, conducting testing during the development lifecycle of many various features and updates to a singular software platform across multiple environments and setups. Scenario writing, being an active member of planning and discovery phases, as well as continuous advocation of continued evolution of our development approach."
+        "Fully manual role, conducting testing during the Agile development lifecycle of many various features and updates to a singular microservice software platform across multiple environments. General tasks include: Data tracking, scenario writing, being an active member of planning and discovery phases, as well as advocation of continued evolution of our development approach."
       ],
       "additionalSkillList": {
         "title": "Responsibilities included:",
         "skills": [
-          "Investigating and presenting quality management and tracking tools to improve our testing approach.",
-          "Advising and reviewing the creation of various DOR/DOD documentation (Definition of Ready/Definition of Done).",
+          "Line management of one other permanent Senior QA Engineer and one contracted QA Engineer",
+          "Representing QA's best interests and continued evolutionary focus on providing and improving quality throughout the development life cycle",
+          "Advising and reviewing the creation of various development, testing and general guidance documentation.",
           "Mentor and guide on matters of general testing best practices, and troubleshooting for fellow QA Engineers and Developers.",
-          "Presenting BDD Good Practices to improve our approach with Acceptance Criteria and Scenario writing for a more uniformed language approach between Product and Engineering.",
-          "Tracking and Reporting on Deployment and Automated Test Failure Frequency and it's impact on delivery."
+          "Tracking and Reporting on Deployment cadence to aid with DORA metrics and Automated Test Failure Frequency and impacts on delivery."
         ]
       }
     },
