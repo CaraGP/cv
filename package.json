@@ -1,50 +1,65 @@
 {
-  "name": "cv",
-  "version": "0.1.0",
+  "name": "cv-vite",
   "private": true,
   "homepage": "https://xurion.github.io/cv",
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "moment": "^2.24.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-moment": "^1.0.0",
-    "reactstrap": "^8.4.1",
-    "typescript": "^4.1.2"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "lint": "eslint .",
+    "loki": "loki --requireReference",
+    "loki:ci": "loki --requireReference --reactUri file:./dist-storybook --chromeTolerance=1",
+    "loki:update": "loki update",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "sb build -o ./dist-storybook"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
-    "@types/jest": "^26.0.16",
-    "@types/node": "^14.14.10",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "gh-pages": "^3.1.0",
-    "node-sass": "^4.0.0",
-    "react-scripts": "^4.0.1"
+    "@chromatic-com/storybook": "^1.9.0",
+    "@eslint/js": "^9.11.1",
+    "@storybook/addon-essentials": "^8.3.5",
+    "@storybook/addon-interactions": "^8.3.5",
+    "@storybook/addon-links": "^8.3.5",
+    "@storybook/addon-onboarding": "^8.3.5",
+    "@storybook/addon-styling-webpack": "^1.0.0",
+    "@storybook/blocks": "^8.3.5",
+    "@storybook/builder-vite": "^8.3.5",
+    "@storybook/cli": "^8.3.6",
+    "@storybook/react": "^8.3.5",
+    "@storybook/react-vite": "^8.3.5",
+    "@storybook/test": "^8.3.5",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-helmet": "^6.1.11",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "eslint-plugin-storybook": "^0.9.0",
+    "globals": "^15.9.0",
+    "loki": "^0.35.1",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "prettier": "3.3.3",
+    "storybook": "^8.3.5",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.7.0",
+    "vite": "^5.4.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended",
+      "plugin:storybook/recommended",
+      "plugin:storybook/recommended"
+    ]
   }
 }
