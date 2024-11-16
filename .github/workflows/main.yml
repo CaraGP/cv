@@ -1,7 +1,7 @@
 name: Continuous deployment to Github pages
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# events but only for the main branch
 on:
   push:
     branches: [main]
@@ -21,11 +21,13 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        run: yarn install
+        run: |
+          npm -v
+          npm install
 
       # Build the React app
       - name: Build
-        run: yarn build
+        run: npm run build
 
       # Deploy to gh-pages
       - name: Deploy
@@ -33,5 +35,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy.
+          FOLDER: dist # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch

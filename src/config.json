@@ -20,36 +20,16 @@
     "Over 13 years experience in the field of Quality Assurance. High level of attention to detail, adaptable, and with experience in Manual and Automation test approaches. Experienced with both Scrum and Agile methodologies and processes across multiple software development areas, including Mobile, Connected devices and Gaming Applications."
   ],
   "skills": [
-    "Behaviour-driven development (BDD)",
-    "Gherkin scenario writing/refining",
+    "Behaviour-driven development (BDD) in the form of early Gherkin scenario writing/refining",
     "Test-driven development (TDD)",
     "Visual Studio Code",
-    "IntelliJ",
-    "ADT Eclipse",
-    "Xcode",
-    "WebdriverIO",
+    "Cypress",
     "Basics of JavaScript test definitions",
-    "Cucumber",
-    "Behat",
     "GitHub",
-    "Eggplant",
-    "Selenium IDE",
-    "SoapUI",
-    "Bamboo",
-    "Bitbucket",
-    "Octopus",
-    "Datadog",
-    "Sonic CMS",
-    "Google Analytics",
+    "Graylog",
     "Storybook",
-    "Full Story",
-    "Browserstack",
-    "CharlesProxy",
     "Postman",
-    "Burp",
-    "Ghost Inspector",
     "TestRail",
-    "QTest",
     "Jira"
   ],
   "complimentarySkills": [
@@ -60,31 +40,63 @@
     "Advocate for team transparency.",
     "Bridges the natural language gap between business and engineer.",
     "Drives for constantly improving processes.",
-    "Efficient learning ability for new tools, processes and frameworks.",
-    "Ability to manipulate data, automation, proxy tool and debugging code for a wide range of testing coverage."
+    "Efficient learning ability for new feature, tools, processes and frameworks.",
+    "Ability to manipulate data, investigating errors via logging tools for a wider range of understanding.",
+    "Not just testing something works, but striving to understand why it doesn't and could it do it better?"
   ],
   "me": [
     "I drive for Quality over Quantity, and aim to change the way teams think about general quality and testing approaches.",
     "Interested in joining a improvement-driven cross-functional team, where I can extend my knowledge and hands on experience."
   ],
   "meReadMore": [
-    "I consider it one of my professional mandates to mentor and coach members of my team, and the wider company, that quality is everyone's responsibility.",
-    "Able to work on my own, but I prefer working directly with developers, product, design, and all other elements in a cross-fuctional team.",
-    "I am approachable and easy to get on with; providing both a friendly ear and a sound board for ideas. My communication skills are of a high standard; willing and able to converse with all levels and experiences.",
-    "I see myself as artistic and creative, dabbling in oil painting and wire weaving crafts."
+    "I consider it one of my professional mandates to mentor and coach members of my team, and the wider engineering team, that quality is everyone's responsibility.",
+    "Able to work on my own, but I prefer working directly with developers, product, design, and all other elements in a cross-functional team.",
+    "I am approachable and easy to get on with; providing both a friendly ear and a rubber duck alternative for ideas and problem solving. My communication skills are of a high standard; willing and able to converse with all levels and experiences.",
+    "I see myself as artistic and creative. Hobbies include art and crafts, and computer games."
   ],
   "experience": [
+    {
+      "jobTitle": "Senior QA Engineer",
+      "companyName": "InfoSum",
+      "companyLogo": "InfoSum_LOGO.svg",
+      "startDate": "Sept 2021",
+      "about": [
+        "Part of a small engineering team working on a SAAS Platform in the Marketing, Data Cleanroom space. Storing and providing a service to allow for data querying to help with Marketing specific user groups and general campaigns."
+      ],
+      "aboutReadMore": [
+        "Fully manual role, conducting testing during the development lifecycle of many various features and updates to a singular software platform across multiple environments and setups. Scenario writing, being an active member of planning and discovery phases, as well as continuous advocation of continued evolution of our development approach."
+      ],
+      "additionalSkillList": {
+        "title": "Responsibilities included:",
+        "skills": [
+          "Investigating and presenting quality management and tracking tools to improve our testing approach.",
+          "Advising and reviewing the creation of various DOR/DOD documentation (Definition of Ready/Definition of Done).",
+          "Mentor and guide on matters of general testing best practices, and troubleshooting for fellow QA Engineers and Developers.",
+          "Presenting BDD Good Practices to improve our approach with Acceptance Criteria and Scenario writing for a more uniformed language approach between Product and Engineering.",
+          "Tracking and Reporting on Deployment and Automated Test Failure Frequency and it's impact on delivery."
+        ]
+      }
+    },
     {
       "jobTitle": "QA Engineer",
       "companyName": "Discovery Inc.",
       "companyLogo": "discovery.png",
       "startDate": "Oct 2020",
+      "endDate": "Sept 2021",
       "about": [
         "Part of a team responsible for creating and maintaining Discovery's Connected/Smart TV devices software application, which allows users to watch various Discovery Channel content."
       ],
       "aboutReadMore": [
-        "Heavily manual role, conducting end-to-end testing across multiple pieces of hardware."
-      ]
+        "Heavily manual role, conducting end-to-end testing a software application platform across multiple pieces of hardware."
+      ],
+      "additionalSkillList": {
+        "title": "Responsibilities included:",
+        "skills": [
+          "Implementation and maintenance of various test-plans to cover the end-to-end testing of the various hardware platforms we supported.",
+          "Creating DOR/DOD documentation (Definition of Ready/Definition of Done).",
+          "Mentor and guide on matters of general testing best practices, and troubleshooting for fellow QA Engineers."
+        ]
+      }
     },
     {
       "jobTitle": "Senior Test Engineer",
@@ -102,7 +114,7 @@
       "additionalSkillList": {
         "title": "Responsibilities included:",
         "skills": [
-          "Implemention and maintainence of Acceptance/Functional automation test suites, covering both Frontend and Backend functionality, in Javascript and PHP.",
+          "Implementation and maintenance of Acceptance/Functional automation test suites, covering both Frontend and Backend functionality, in Javascript and PHP.",
           "Mentor junior members of the team in good automation practice such as BDD and quality-first focus.",
           "Implementing new testing tools to aid with quality monitoring, such as a Mutation Testing tool.",
           "Creating and updating DOR/DOD documentation (Definition of Ready/Definition of Done).",
@@ -189,7 +201,7 @@
         "title": "Responsibilities included:",
         "skills": [
           "Wrote and improved test documentation and test plans.",
-          "Experienced with the use of Charlesproxy to monitor and manipulate API calls between the app and server.",
+          "Experienced with the use of Charles Proxy to monitor and manipulate API calls between the app and server.",
           "Experienced with the use of XCode and ADT Eclipse to obtain crash logs for both Android and iPhone devices.",
           "Experienced with Window 8 devices and applications.",
           "Experienced with Agile, Scrum and Waterfall project cycles.",
@@ -212,7 +224,7 @@
         "Covered various roles within the testing/quality department for a well-established and long-running games company."
       ],
       "aboutReadMore": [
-        "Evolved from simply testing games to organising testing responsibilites and daily coverage. Also monitoring and organising test management data between shifts and different business units. Then moved into hardware and software management, being involved with the software submissions and submission monitoring."
+        "Evolved from simply testing games to organising testing responsibilities and daily coverage. Also monitoring and organising test management data between shifts and different business units. Then moved into hardware and software management, being involved with the software submissions and submission monitoring."
       ],
       "additionalSkillList": {
         "title": "Responsibilities included:",
