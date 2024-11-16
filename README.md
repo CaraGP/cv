@@ -1,10 +1,10 @@
 # My personal CV
 
-https://xurion.github.io/cv
+https://github.com/CaraGP/cv
 
 ## Install
 
-- `git clone git@github.com:xurion/cv.git`
+- `git clone git@github.com:CaraGP/cv.git`
 - `npm install`
 
 ## Run
